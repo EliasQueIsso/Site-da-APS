@@ -24,7 +24,7 @@
     position: absolute;
     background-color: #01366b;
     width: 100%;
-    top: 100%;
+    top: 970px;
     height: 200px;
     text-align: center;
 }
@@ -37,4 +37,27 @@
     font-family: 'Roboto';
     font-size: 35px;
     color: #FFFFFF;
+}
+.VeicSustBG{
+    position: absolute;
+    top: 1170px;
+    width: 50%;
+    height: 100vh;
+}
+.VeicSust{
+    position: absolute;
+    color: #FFFFFF;
+    top: 1170px;
+    left: 50%;
+    margin: 10px;
+    text-align: justify;
+    font-size: 25px;
+}
+.VeicSust span{
+    color: #0b60b4;
+    font-size: 35px;
+}
+.VeicSust p{
+    margin: 40px;
+    text-align: justify;
 }

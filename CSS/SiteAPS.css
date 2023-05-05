@@ -47,7 +47,7 @@
 .VeicSust{
     position: absolute;
     color: #FFFFFF;
-    top: 1170px;
+    top: 1400px;
     left: 50%;
     margin: 10px;
     text-align: justify;
@@ -60,4 +60,30 @@
 .VeicSust p{
     margin: 40px;
     text-align: justify;
+}
+.divisoria2{
+    position: absolute;
+    background-color: #01366b;
+    width: 100%;
+    top: 2140px;
+    height: 200px;
+    text-align: center;
+}
+.divisoria2 p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 80px;
+    padding: 0;
+    font-family: 'Roboto';
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.MeioAmbtBG{
+    position: absolute;
+    top: 2340px;
+    width: 50%;
+    height: 100vh;
+    right: 0px;
 }

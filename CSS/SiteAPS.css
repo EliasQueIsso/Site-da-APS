@@ -79,11 +79,15 @@
     font-size: 35px;
     color: #FFFFFF;
 }
-
 .MeioAmbtBG{
     position: absolute;
     top: 2340px;
     width: 50%;
     height: 100vh;
     right: 0px;
+}
+.MeioAmbt{
+    position: absolute;
+    top: 2600px;
+    left: 4%;
 }

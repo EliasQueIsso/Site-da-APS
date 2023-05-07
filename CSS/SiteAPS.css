@@ -91,3 +91,11 @@
     top: 2600px;
     left: 4%;
 }
+.MeioAmbt span{
+    color: #0b60b4;
+    font-size: 35px;
+}
+.MeioAmbt p{
+    margin: 40px;
+    text-align: justify;
+}

@@ -42,17 +42,16 @@ html body{
     color: #FFFFFF;
 }
 .VeicSustBG{
-    
     top: 1170px;
-    width: 50%;
+    width: 100%;
     max-width: 1280px;
     max-height:1083px;
-    height: 110vh;
+    height: 100%;
 }
 .VeicSust{
     
     color: #FFFFFF;
-    top: 1350px;
+    top: 100px;
     left: 50%;
     margin: 10px;
     text-align: justify;
@@ -295,4 +294,28 @@ html body{
     font-family: 'Roboto';
     font-size: 50px;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 480px){
+    .VeicSust{
+        text-align: center;
+    }
+    .VeicSust p{
+        text-align: center;
+    }
+    .divisoria1 p{
+        font-size: 30px;
+    }
+    .divisoria2 p{
+        font-size: 30px;
+    }
+    .divisoria3 p{
+        font-size: 30px;
+    }
+    .divisoria4 p{
+        font-size: 30px;
+    }
+    .divisoria2 p{
+        font-size: 30px;
+    }
 }

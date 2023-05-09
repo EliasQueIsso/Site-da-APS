@@ -1,32 +1,37 @@
 *{
     font-family: Verdana;
 }
+:root
+{
+    --clr:#222327;
+    --bs-dark: #212529;
+}
 
+html body{
+    background-color: var(--bs-dark);
+    background: var(--bs-dark);
+}
 .CarroBG{
-    position: absolute;
     max-height: 1083px;
     height: 100%;
-    width: 50%;
+    width: 100%;
     max-width: 1280px;
     right: 0px;
     top: 0px;
 }
 .logo{
-    position: absolute;
     margin: auto;
-    width: 26vw;
-    height: 70vh;
+    width: 80%;
+    height: 80%;
     top: 150px;
     left: 10%;
     /*background-image: url('../Imagens/Screenshot_19.jpg');*/
 }
 .divisoria{
-    position: absolute;
+    
     background-color: #01366b;
     width: 100%;
-    top: 878px;
-    height: 295px;
-    text-align: center;
+    margin-top: -100px;
 }
 .divisoria p{
     display: block;
@@ -37,7 +42,7 @@
     color: #FFFFFF;
 }
 .VeicSustBG{
-    position: absolute;
+    
     top: 1170px;
     width: 50%;
     max-width: 1280px;
@@ -45,9 +50,9 @@
     height: 110vh;
 }
 .VeicSust{
-    position: absolute;
+    
     color: #FFFFFF;
-    top: 1400px;
+    top: 1350px;
     left: 50%;
     margin: 10px;
     text-align: justify;
@@ -62,7 +67,7 @@
     text-align: justify;
 }
 .divisoria2{
-    position: absolute;
+    
     background-color: #01366b;
     width: 100%;
     top: 2140px;
@@ -80,7 +85,7 @@
     color: #FFFFFF;
 }
 .MeioAmbtBG{
-    position: absolute;
+    
     top: 2340px;
     width: 50%;
     max-width: 1280px;
@@ -89,8 +94,8 @@
     right: 0px;
 }
 .MeioAmbt{
-    position: absolute;
-    top: 2550px;
+    
+    top: 2450px;
     left: 4%;
     margin: 5px;
     text-align: justify;
@@ -106,7 +111,7 @@
     text-align: justify;
 }
 .divisoria3{
-    position: absolute;
+    
     width: 100%;
     top: 3300px;
     height: 200px;
@@ -123,7 +128,7 @@
     color: #FFFFFF;
 }
 .MiletoIMG{
-    position: absolute;
+    
     height: 100%;
     max-height: 240px;
     width: 100%;
@@ -132,14 +137,14 @@
     left: 5%;
 }
 .Mileto span{
-    position: absolute;
+    
     top: 3700px;
     left: 385px;
     font-size: 35px;
     color: #FFFFFF;
 }
 .Mileto p{
-    position: absolute;
+    
     margin: 10px;
     top: 3750px;
     font-size: 25px;
@@ -147,13 +152,13 @@
     color: #FFFFFF;
 }
 .MagaLu{
-    position: absolute;
+    
     top: 3650px;
     right: 0px;
     width: 50%;
 }
 .MagaLuIMG{
-    position: absolute;
+    
     height: 240px;
     max-height: 240px;
     width: 280px;
@@ -162,14 +167,14 @@
     left: 20px;
 }
 .MagaLu span{
-    position: absolute;
+    
     top: 50px;
     left: 320px;
     font-size: 35px;
     color: #FFFFFF;
 }
 .MagaLu p{
-    position: absolute;
+    
     margin: 10px;
     top: 95px;
     left: 320px;
@@ -177,7 +182,7 @@
     color: #FFFFFF;
 }
 .Taxi99IMG{
-    position: absolute;
+    
     height: 100%;
     max-height: 240px;
     width: 100%;
@@ -186,14 +191,14 @@
     left: 5%;
 }
 .Taxi99 span{
-    position: absolute;
+    
     top: 4200px;
     left: 385px;
     font-size: 35px;
     color: #FFFFFF;
 }
 .Taxi99 p{
-    position: absolute;
+    
     margin: 10px;
     top: 4250px;
     font-size: 25px;
@@ -201,13 +206,13 @@
     color: #FFFFFF;
 }
 .BYD{
-    position: absolute;
+    
     top: 4150px;
     right: 0px;
     width: 50%;
 }
 .BYDIMG{
-    position: absolute;
+    
     height: 240px;
     max-height: 240px;
     width: 280px;
@@ -216,14 +221,14 @@
     left: 20px;
 }
 .BYD span{
-    position: absolute;
+    
     top: 50px;
     left: 320px;
     font-size: 35px;
     color: #FFFFFF;
 }
 .BYD p{
-    position: absolute;
+    
     margin: 10px;
     top: 95px;
     left: 320px;
@@ -231,7 +236,7 @@
     color: #FFFFFF;
 }
 .divisoria4{
-    position: absolute;
+    
     background-color: #01366b;
     width: 100%;
     top: 4550px;
@@ -249,7 +254,7 @@
     color: #FFFFFF;
 }
 .EconomBG{
-    position: absolute;
+    
     top: 4750px;
     max-height: 1083px;
     height: 100%;
@@ -257,9 +262,9 @@
     max-width: 1280px;
 }
 .Econom{
-    position: absolute;
+    
     color: #FFFFFF;
-    top: 4850px;
+    top: 4750px;
     left: 50%;
     margin: 10px;
     text-align: justify;
@@ -274,45 +279,20 @@
     text-align: justify;
 }
 .divisoria5{
-    position: absolute;
+    
     background-color: #01366b;
     width: 100%;
     top: 5620px;
-    height: 295px;
+    height: 190px;
     text-align: center;
 }
 .divisoria5 p{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin: 100px;
+    margin: 50px;
     padding: 0;
     font-family: 'Roboto';
     font-size: 50px;
     color: #FFFFFF;
-}
-
-@media screen and (max-width:600px){
-    .CarroBG{
-        width: 100%;
-    }
-    .logo{
-       width: 100%;
-    }
-    .divisoria{
-        position: absolute;
-        background-color: #01366b;
-        width: 100%;
-        top: 878px;
-        height: 295px;
-        text-align: center;
-    }
-    .divisoria p{
-        display: block;
-        margin: 100px;
-        padding: 0;
-        font-family: 'Roboto';
-        font-size: 35px;
-        color: #FFFFFF;
-    }
 }

@@ -20,7 +20,7 @@ export default [
       answers: [
         { option: "R$ 3.267,00", correct: false },
         { option: "R$ 533,00", correct: true },
-        { option: "R% 272,00", correct: false },
+        { option: "R$ 272,00", correct: false },
       ],
     },
     {

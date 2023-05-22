@@ -11,6 +11,9 @@ html body{
     background-color: var(--bs-dark);
     background: var(--bs-dark);
 }
+nav{
+    background: var(--bs-dark);
+}
 .CarroBG{
     max-height: 1083px;
     height: 100%;
